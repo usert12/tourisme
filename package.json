@@ -1,0 +1,8 @@
+{
+  "name": "3t-algeria-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3T - Trip & Travel Trace tourism platform for 5 Algerian wilayas",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "engines": { "node": ">=18" }
+}

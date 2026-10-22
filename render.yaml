@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: 3t-algeria-fullstack
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
